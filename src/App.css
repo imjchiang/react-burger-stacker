@@ -1,4 +1,18 @@
-.App {
+.App 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App>div
+{
+  width: 40vw;
+  height: 50vh;
+}
+
+h3
+{
   text-align: center;
 }
 
@@ -35,4 +49,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ingredient-form
+{
+  display: flex;
+  margin-bottom: 1vw;
+}
+
+.ingredient-label
+{
+  display: flex;
+  justify-content: center;
+  margin-right: 1vw;
+  width: 80%;
 }
